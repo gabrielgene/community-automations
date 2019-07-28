@@ -6,7 +6,7 @@ describe('Beginner author', function() {
     cy.auth();
   });
 
-  users.map(username => {
+  users.forEach(username => {
     it(`Upgrade user: ${username}`, function() {
       cy.visit('/');
       cy.visit(`https://${username}.jusbrasil.com.br/gerenciar`);
