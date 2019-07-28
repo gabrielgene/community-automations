@@ -1,0 +1,24 @@
+{
+  "name": "community-automations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielgene/community-automations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielgene/community-automations/issues"
+  },
+  "homepage": "https://github.com/gabrielgene/community-automations#readme",
+  "devDependencies": {
+    "cypress": "^3.4.0",
+    "cypress-plugin-retries": "^1.2.2"
+  }
+}
